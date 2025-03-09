@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Configurations>Debug;Release</Configurations>
+    <LangVersion>latest</LangVersion>
+    <DefineConstants>PUBLIC_LottieReader</DefineConstants>
+  </PropertyGroup>
+
+  <Import Project="..\..\source\LottieReader\LottieReader.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LottieData\LottieData.dll.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,280 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LottieData", "..\source\LottieData\LottieData.shproj", "{B3DB16EE-A821-4474-A188-E64926529BBD}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LottieReader", "..\source\LottieReader\LottieReader.shproj", "{4E7D8957-3F5F-46E1-99A8-2012B806C9B0}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LottieToWinComp", "..\source\LottieToWinComp\LottieToWinComp.shproj", "{0340244A-683C-405E-838B-F93872779532}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WinCompData", "..\source\WinCompData\WinCompData.shproj", "{D02870DE-7DED-4916-85D4-3175CEEDEF74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}"
+	ProjectSection(SolutionItems) = preProject
+		source\README.md = source\README.md
+	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WinUIXamlMediaData", "..\source\WinUIXamlMediaData\WinUIXamlMediaData.shproj", "{30059CA7-0745-4EEC-8D11-B14850A70C98}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UIData", "..\source\UIData\UIData.shproj", "{74601E6C-2DFE-4842-B170-047941ABFF2C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "YamlData", "..\source\YamlData\YamlData.shproj", "{39C6B7F3-5E75-4019-82AB-00FD8A0A06E2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WinStorageStreamsData", "..\source\WinStorageStreamsData\WinStorageStreamsData.shproj", "{2202E218-DD9F-496A-AEF4-3F07F0EA5B9D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "GenericData", "..\source\GenericData\GenericData.shproj", "{77BCD724-8555-463B-985F-F8E8110164C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Issues", "Issues", "{BDB88D65-320E-4293-9E55-1D3ED8332FF6}"
+	ProjectSection(SolutionItems) = preProject
+		..\source\Issues\GenerateIssuesClasses.cmd = ..\source\Issues\GenerateIssuesClasses.cmd
+		..\source\Issues\IssuesClassGenerator.t4 = ..\source\Issues\IssuesClassGenerator.t4
+		..\source\Issues\LP0001.md = ..\source\Issues\LP0001.md
+		..\source\Issues\LP0002.md = ..\source\Issues\LP0002.md
+		..\source\Issues\LP0005.md = ..\source\Issues\LP0005.md
+		..\source\Issues\LP0006.md = ..\source\Issues\LP0006.md
+		..\source\Issues\LP0007.md = ..\source\Issues\LP0007.md
+		..\source\Issues\LP0008.md = ..\source\Issues\LP0008.md
+		..\source\Issues\LP0009.md = ..\source\Issues\LP0009.md
+		..\source\Issues\LP0011.md = ..\source\Issues\LP0011.md
+		..\source\Issues\LP0012.md = ..\source\Issues\LP0012.md
+		..\source\Issues\LP0013.md = ..\source\Issues\LP0013.md
+		..\source\Issues\LP0014.md = ..\source\Issues\LP0014.md
+		..\source\Issues\LP0015.md = ..\source\Issues\LP0015.md
+		..\source\Issues\LP0016.md = ..\source\Issues\LP0016.md
+		..\source\Issues\LP0017.md = ..\source\Issues\LP0017.md
+		..\source\Issues\LP0018.md = ..\source\Issues\LP0018.md
+		..\source\Issues\LT0001.md = ..\source\Issues\LT0001.md
+		..\source\Issues\LT0002.md = ..\source\Issues\LT0002.md
+		..\source\Issues\LT0003.md = ..\source\Issues\LT0003.md
+		..\source\Issues\LT0004.md = ..\source\Issues\LT0004.md
+		..\source\Issues\LT0005.md = ..\source\Issues\LT0005.md
+		..\source\Issues\LT0006.md = ..\source\Issues\LT0006.md
+		..\source\Issues\LT0007.md = ..\source\Issues\LT0007.md
+		..\source\Issues\LT0009.md = ..\source\Issues\LT0009.md
+		..\source\Issues\LT0010.md = ..\source\Issues\LT0010.md
+		..\source\Issues\LT0011.md = ..\source\Issues\LT0011.md
+		..\source\Issues\LT0012.md = ..\source\Issues\LT0012.md
+		..\source\Issues\LT0013.md = ..\source\Issues\LT0013.md
+		..\source\Issues\LT0014.md = ..\source\Issues\LT0014.md
+		..\source\Issues\LT0015.md = ..\source\Issues\LT0015.md
+		..\source\Issues\LT0016.md = ..\source\Issues\LT0016.md
+		..\source\Issues\LT0017.md = ..\source\Issues\LT0017.md
+		..\source\Issues\LT0018.md = ..\source\Issues\LT0018.md
+		..\source\Issues\LT0019.md = ..\source\Issues\LT0019.md
+		..\source\Issues\LT0020.md = ..\source\Issues\LT0020.md
+		..\source\Issues\LT0021.md = ..\source\Issues\LT0021.md
+		..\source\Issues\LT0022.md = ..\source\Issues\LT0022.md
+		..\source\Issues\LT0023.md = ..\source\Issues\LT0023.md
+		..\source\Issues\LT0024.md = ..\source\Issues\LT0024.md
+		..\source\Issues\LT0025.md = ..\source\Issues\LT0025.md
+		..\source\Issues\LT0026.md = ..\source\Issues\LT0026.md
+		..\source\Issues\LT0027.md = ..\source\Issues\LT0027.md
+		..\source\Issues\LT0028.md = ..\source\Issues\LT0028.md
+		..\source\Issues\LT0029.md = ..\source\Issues\LT0029.md
+		..\source\Issues\LT0030.md = ..\source\Issues\LT0030.md
+		..\source\Issues\LT0031.md = ..\source\Issues\LT0031.md
+		..\source\Issues\LT0032.md = ..\source\Issues\LT0032.md
+		..\source\Issues\LT0033.md = ..\source\Issues\LT0033.md
+		..\source\Issues\LT0034.md = ..\source\Issues\LT0034.md
+		..\source\Issues\LT0035.md = ..\source\Issues\LT0035.md
+		..\source\Issues\LT0036.md = ..\source\Issues\LT0036.md
+		..\source\Issues\LT0037.md = ..\source\Issues\LT0037.md
+		..\source\Issues\LT0038.md = ..\source\Issues\LT0038.md
+		..\source\Issues\LT0039.md = ..\source\Issues\LT0039.md
+		..\source\Issues\LT0040.md = ..\source\Issues\LT0040.md
+		..\source\Issues\LT0041.md = ..\source\Issues\LT0041.md
+		..\source\Issues\LT0042.md = ..\source\Issues\LT0042.md
+		..\source\Issues\LT0043.md = ..\source\Issues\LT0043.md
+		..\source\Issues\LT0044.md = ..\source\Issues\LT0044.md
+		..\source\Issues\LT0045.md = ..\source\Issues\LT0045.md
+		..\source\Issues\LV0001.md = ..\source\Issues\LV0001.md
+		..\source\Issues\LV0002.md = ..\source\Issues\LV0002.md
+		..\source\Issues\LV0003.md = ..\source\Issues\LV0003.md
+		..\source\Issues\LV0004.md = ..\source\Issues\LV0004.md
+		..\source\Issues\ParsingIssues.tt = ..\source\Issues\ParsingIssues.tt
+		..\source\Issues\TranslationIssues.tt = ..\source\Issues\TranslationIssues.tt
+		..\source\Issues\ValidationIssues.tt = ..\source\Issues\ValidationIssues.tt
+	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UIDataCodeGen", "..\source\UIDataCodeGen\UIDataCodeGen.shproj", "{D02BE6C8-14DB-4B4F-8600-F3C9B69C104D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LottieMetadata", "..\source\LottieMetadata\LottieMetadata.shproj", "{04B43A1A-DDFB-4A61-BF36-39F5E666C702}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CompMetadata", "..\source\CompMetadata\CompMetadata.shproj", "{B0197C19-BDF5-473E-A022-E21F6122EEE5}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DotLottie", "..\source\DotLottie\DotLottie.shproj", "{7012420D-624C-4BD4-A1D2-1C6C1655ED3A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Animatables", "..\source\Animatables\Animatables.shproj", "{FC89273A-B2DA-4625-8A73-EF02A658D65E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LottieGen.win-x64", "win-x64\LottieGen.win-x64.csproj", "{FD20C604-C757-46F4-9A8C-711C39F79A46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LottieGen", "DotnetTool\LottieGen.csproj", "{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83310E27-6098-4DC2-8EFE-EC7D9418E2E5}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LottieGen", "..\source\LottieGen\LottieGen.shproj", "{7654A857-9A99-4185-9F8E-DD0CE662AF23}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LottieGenExe", "..\source\LottieGenExe\LottieGenExe.shproj", "{DC7F7A39-B7A7-40B4-937A-601460CAE38C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LottieGen.MsBuild", "MSBuildTask\LottieGen.MsBuild.csproj", "{9E1EBC4F-EAF5-4034-A373-9C69849B0575}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NullablesAttributes", "..\source\NullablesAttributes\NullablesAttributes.shproj", "{E32587A8-94E8-4B68-91AD-F3612A48A62B}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\source\LottieToWinComp\LottieToWinComp.projitems*{0340244a-683c-405e-838b-f93872779532}*SharedItemsImports = 13
+		..\source\LottieMetadata\LottieMetadata.projitems*{04b43a1a-ddfb-4a61-bf36-39f5e666c702}*SharedItemsImports = 13
+		..\source\WinStorageStreamsData\WinStorageStreamsData.projitems*{2202e218-dd9f-496a-aef4-3f07f0ea5b9d}*SharedItemsImports = 13
+		..\source\WinUIXamlMediaData\WinUIXamlMediaData.projitems*{30059ca7-0745-4eec-8d11-b14850a70c98}*SharedItemsImports = 13
+		..\source\YamlData\YamlData.projitems*{39c6b7f3-5e75-4019-82ab-00fd8a0a06e2}*SharedItemsImports = 13
+		..\source\LottieReader\LottieReader.projitems*{4e7d8957-3f5f-46e1-99a8-2012b806c9b0}*SharedItemsImports = 13
+		..\source\DotLottie\DotLottie.projitems*{7012420d-624c-4bd4-a1d2-1c6c1655ed3a}*SharedItemsImports = 13
+		..\source\UIData\UIData.projitems*{74601e6c-2dfe-4842-b170-047941abff2c}*SharedItemsImports = 13
+		..\source\LottieGen\LottieGen.projitems*{7654a857-9a99-4185-9f8e-dd0ce662af23}*SharedItemsImports = 13
+		..\source\GenericData\GenericData.projitems*{77bcd724-8555-463b-985f-f8e8110164c4}*SharedItemsImports = 13
+		..\source\Animatables\Animatables.projitems*{a435dd2a-942f-4d95-9e3f-216ffa5fbc4d}*SharedItemsImports = 5
+		..\source\CompMetadata\CompMetadata.projitems*{a435dd2a-942f-4d95-9e3f-216ffa5fbc4d}*SharedItemsImports = 5
+		..\source\DotLottie\DotLottie.projitems*{a435dd2a-942f-4d95-9e3f-216ffa5fbc4d}*SharedItemsImports = 5
+		..\source\GenericData\GenericData.projitems*{a435dd2a-942f-4d95-9e3f-216ffa5fbc4d}*SharedItemsImports = 5
+		..\source\LottieData\LottieData.projitems*{a435dd2a-942f-4d95-9e3f-216ffa5fbc4d}*SharedItemsImports = 5
+		..\source\LottieGenExe\LottieGenExe.projitems*{a435dd2a-942f-4d95-9e3f-216ffa5fbc4d}*SharedItemsImports = 5
+		..\source\LottieGen\LottieGen.projitems*{a435dd2a-942f-4d95-9e3f-216ffa5fbc4d}*SharedItemsImports = 5
+		..\source\LottieMetadata\LottieMetadata.projitems*{a435dd2a-942f-4d95-9e3f-216ffa5fbc4d}*SharedItemsImports = 5
+		..\source\LottieReader\LottieReader.projitems*{a435dd2a-942f-4d95-9e3f-216ffa5fbc4d}*SharedItemsImports = 5
+		..\source\LottieToWinComp\LottieToWinComp.projitems*{a435dd2a-942f-4d95-9e3f-216ffa5fbc4d}*SharedItemsImports = 5
+		..\source\UIDataCodeGen\UIDataCodeGen.projitems*{a435dd2a-942f-4d95-9e3f-216ffa5fbc4d}*SharedItemsImports = 5
+		..\source\UIData\UIData.projitems*{a435dd2a-942f-4d95-9e3f-216ffa5fbc4d}*SharedItemsImports = 5
+		..\source\WinCompData\WinCompData.projitems*{a435dd2a-942f-4d95-9e3f-216ffa5fbc4d}*SharedItemsImports = 5
+		..\source\WinStorageStreamsData\WinStorageStreamsData.projitems*{a435dd2a-942f-4d95-9e3f-216ffa5fbc4d}*SharedItemsImports = 5
+		..\source\WinUIXamlMediaData\WinUIXamlMediaData.projitems*{a435dd2a-942f-4d95-9e3f-216ffa5fbc4d}*SharedItemsImports = 5
+		..\source\YamlData\YamlData.projitems*{a435dd2a-942f-4d95-9e3f-216ffa5fbc4d}*SharedItemsImports = 5
+		..\source\CompMetadata\CompMetadata.projitems*{b0197c19-bdf5-473e-a022-e21f6122eee5}*SharedItemsImports = 13
+		..\source\LottieData\LottieData.projitems*{b3db16ee-a821-4474-a188-e64926529bbd}*SharedItemsImports = 13
+		..\source\WinCompData\WinCompData.projitems*{d02870de-7ded-4916-85d4-3175ceedef74}*SharedItemsImports = 13
+		..\source\UIDataCodeGen\UIDataCodeGen.projitems*{d02be6c8-14db-4b4f-8600-f3c9b69c104d}*SharedItemsImports = 13
+		..\source\LottieGenExe\LottieGenExe.projitems*{dc7f7a39-b7a7-40b4-937a-601460cae38c}*SharedItemsImports = 13
+		..\source\NullablesAttributes\NullablesAttributes.projitems*{e32587a8-94e8-4b68-91ad-f3612a48a62b}*SharedItemsImports = 13
+		..\source\Animatables\Animatables.projitems*{fc89273a-b2da-4625-8a73-ef02a658d65e}*SharedItemsImports = 13
+		..\source\Animatables\Animatables.projitems*{fd20c604-c757-46f4-9a8c-711c39f79a46}*SharedItemsImports = 5
+		..\source\CompMetadata\CompMetadata.projitems*{fd20c604-c757-46f4-9a8c-711c39f79a46}*SharedItemsImports = 5
+		..\source\DotLottie\DotLottie.projitems*{fd20c604-c757-46f4-9a8c-711c39f79a46}*SharedItemsImports = 5
+		..\source\GenericData\GenericData.projitems*{fd20c604-c757-46f4-9a8c-711c39f79a46}*SharedItemsImports = 5
+		..\source\LottieData\LottieData.projitems*{fd20c604-c757-46f4-9a8c-711c39f79a46}*SharedItemsImports = 5
+		..\source\LottieGenExe\LottieGenExe.projitems*{fd20c604-c757-46f4-9a8c-711c39f79a46}*SharedItemsImports = 5
+		..\source\LottieGen\LottieGen.projitems*{fd20c604-c757-46f4-9a8c-711c39f79a46}*SharedItemsImports = 5
+		..\source\LottieMetadata\LottieMetadata.projitems*{fd20c604-c757-46f4-9a8c-711c39f79a46}*SharedItemsImports = 5
+		..\source\LottieReader\LottieReader.projitems*{fd20c604-c757-46f4-9a8c-711c39f79a46}*SharedItemsImports = 5
+		..\source\LottieToWinComp\LottieToWinComp.projitems*{fd20c604-c757-46f4-9a8c-711c39f79a46}*SharedItemsImports = 5
+		..\source\UIDataCodeGen\UIDataCodeGen.projitems*{fd20c604-c757-46f4-9a8c-711c39f79a46}*SharedItemsImports = 5
+		..\source\UIData\UIData.projitems*{fd20c604-c757-46f4-9a8c-711c39f79a46}*SharedItemsImports = 5
+		..\source\WinCompData\WinCompData.projitems*{fd20c604-c757-46f4-9a8c-711c39f79a46}*SharedItemsImports = 5
+		..\source\WinStorageStreamsData\WinStorageStreamsData.projitems*{fd20c604-c757-46f4-9a8c-711c39f79a46}*SharedItemsImports = 5
+		..\source\WinUIXamlMediaData\WinUIXamlMediaData.projitems*{fd20c604-c757-46f4-9a8c-711c39f79a46}*SharedItemsImports = 5
+		..\source\YamlData\YamlData.projitems*{fd20c604-c757-46f4-9a8c-711c39f79a46}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Debug|ARM.Build.0 = Debug|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Debug|x64.Build.0 = Debug|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Debug|x86.Build.0 = Debug|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Release|ARM.ActiveCfg = Release|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Release|ARM.Build.0 = Release|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Release|ARM64.Build.0 = Release|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Release|x64.ActiveCfg = Release|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Release|x64.Build.0 = Release|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Release|x86.ActiveCfg = Release|Any CPU
+		{FD20C604-C757-46F4-9A8C-711C39F79A46}.Release|x86.Build.0 = Release|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Debug|ARM.Build.0 = Debug|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Debug|x64.Build.0 = Debug|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Debug|x86.Build.0 = Debug|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Release|ARM.ActiveCfg = Release|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Release|ARM.Build.0 = Release|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Release|ARM64.Build.0 = Release|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Release|x64.ActiveCfg = Release|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Release|x64.Build.0 = Release|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Release|x86.ActiveCfg = Release|Any CPU
+		{A435DD2A-942F-4D95-9E3F-216FFA5FBC4D}.Release|x86.Build.0 = Release|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Debug|ARM.Build.0 = Debug|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Debug|x64.Build.0 = Debug|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Debug|x86.Build.0 = Debug|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Release|ARM.ActiveCfg = Release|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Release|ARM.Build.0 = Release|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Release|ARM64.Build.0 = Release|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Release|x64.ActiveCfg = Release|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Release|x64.Build.0 = Release|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Release|x86.ActiveCfg = Release|Any CPU
+		{9E1EBC4F-EAF5-4034-A373-9C69849B0575}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3DB16EE-A821-4474-A188-E64926529BBD} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{4E7D8957-3F5F-46E1-99A8-2012B806C9B0} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{0340244A-683C-405E-838B-F93872779532} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{D02870DE-7DED-4916-85D4-3175CEEDEF74} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{30059CA7-0745-4EEC-8D11-B14850A70C98} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{74601E6C-2DFE-4842-B170-047941ABFF2C} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{39C6B7F3-5E75-4019-82AB-00FD8A0A06E2} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{2202E218-DD9F-496A-AEF4-3F07F0EA5B9D} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{77BCD724-8555-463B-985F-F8E8110164C4} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{BDB88D65-320E-4293-9E55-1D3ED8332FF6} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{D02BE6C8-14DB-4B4F-8600-F3C9B69C104D} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{04B43A1A-DDFB-4A61-BF36-39F5E666C702} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{B0197C19-BDF5-473E-A022-E21F6122EEE5} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{7012420D-624C-4BD4-A1D2-1C6C1655ED3A} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{FC89273A-B2DA-4625-8A73-EF02A658D65E} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{7654A857-9A99-4185-9F8E-DD0CE662AF23} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{DC7F7A39-B7A7-40B4-937A-601460CAE38C} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+		{E32587A8-94E8-4B68-91AD-F3612A48A62B} = {AB232F35-AAF7-4AE2-B1D2-45DD9BC2F7D7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51B9BB4C-5196-41CF-950C-12B04AD8A61C}
+	EndGlobalSection
+EndGlobal

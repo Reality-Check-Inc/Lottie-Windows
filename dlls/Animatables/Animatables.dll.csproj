@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Configurations>Debug;Release</Configurations>
+    <LangVersion>latest</LangVersion>
+    <DefineConstants>PUBLIC_Animatables</DefineConstants>
+  </PropertyGroup>
+
+  <Import Project="..\..\source\Animatables\Animatables.projitems" Label="Shared" />
+
+</Project>

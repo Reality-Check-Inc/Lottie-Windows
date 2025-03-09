@@ -1,0 +1,6 @@
+﻿<#@ include file="IssuesClassGenerator.t4" #>
+<#+
+    const string className = "TranslationIssues";
+	const string namespaceName = "CommunityToolkit.WinUI.Lottie.LottieToWinComp";
+	const string prefixFilter = "LT";
+#>

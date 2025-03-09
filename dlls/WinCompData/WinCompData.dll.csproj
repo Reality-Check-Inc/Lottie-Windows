@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Configurations>Debug;Release</Configurations>
+    <LangVersion>latest</LangVersion>
+    <DefineConstants>PUBLIC_WinCompData</DefineConstants>
+  </PropertyGroup>
+  <Import Project="..\..\source\WinCompData\WinCompData.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <PackageReference Include="System.Numerics.Vectors" Version="4.5.0" />
+  </ItemGroup>
+</Project>

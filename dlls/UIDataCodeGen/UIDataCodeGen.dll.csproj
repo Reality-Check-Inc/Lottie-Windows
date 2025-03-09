@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Configurations>Debug;Release</Configurations>
+    <LangVersion>latest</LangVersion>
+    <DefineConstants>PUBLIC_UIDataCodeGen</DefineConstants>
+  </PropertyGroup>
+
+  <Import Project="..\..\source\UIDataCodeGen\UIDataCodeGen.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\CompMetadata\CompMetadata.dll.csproj" />
+    <ProjectReference Include="..\LottieMetadata\LottieMetadata.dll.csproj" />
+    <ProjectReference Include="..\UIData\UIData.dll.csproj" />
+  </ItemGroup>
+
+</Project>

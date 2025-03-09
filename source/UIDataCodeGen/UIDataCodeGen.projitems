@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d02be6c8-14db-4b4f-8600-f3c9b69c104d</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\AlphanumericStringComparer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\CodeBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\CodegenConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\ConstantType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Cppwinrt\CppNamespaceListBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Cppwinrt\CppwinrtCodegenResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Cppwinrt\CppwinrtInstantiatorGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Cppwinrt\CppwinrtStringifier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\CSharp\CSharpCodegenResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\CSharp\CSharpInstantiatorGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\CSharp\CSharpStringifier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Cx\CppNamespaceListBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Cx\CxCodegenResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Cx\CxInstantiatorGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Cx\CxStringifier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Cx\HeaderBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\IAnimatedVisualInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\IAnimatedVisualSourceInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\InstantiatorGeneratorBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\LoadedImageSurfaceInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\MarkerInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\MatrixDecomposer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\NamedConstant.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\NodeNamer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\SourceMetadata.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Stringifier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Tables\ColumnData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Tables\GraphStatsMonospaceTableFormatter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Tables\LottieMarkersMonospaceTableFormatter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Tables\MonospaceTableFormatter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Tables\Row.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Tables\TextAlignment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\Tables\ThemePropertiesMonospaceTableFormatter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CodeGen\TypeName.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\CompositionObjectDgmlSerializer.cs" />
+  </ItemGroup>
+</Project>

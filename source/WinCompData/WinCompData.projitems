@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d02870de-7ded-4916-85d4-3175ceedef74</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AnimationController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BooleanKeyFrameAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ColorKeyFrameAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionBorderMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionBrush.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionClip.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionColorBrush.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionColorGradientStop.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionColorSpace.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionContainerShape.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionDropShadowSourcePolicy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionEasingFunction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionMaskBrush.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionEffectBrush.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionEffectFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionEffectSourceParameter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionEllipseGeometry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionGeometricClip.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionGeometry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionGetValueStatus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionGradientBrush.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionGradientExtendMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionLinearGradientBrush.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionMappingMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionObjectType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionPath.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionPathGeometry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionPropertySet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionRadialGradientBrush.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionRectangleGeometry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionRoundedRectangleGeometry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionShadow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionShape.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionSpriteShape.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionStrokeCap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionStrokeLineJoin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionSurfaceBrush.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionViewBox.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompositionVisualSurface.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Compositor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ContainerVisual.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CubicBezierEasingFunction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DropShadow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ExpressionAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Expressions\Boolean.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Expressions\Color.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Expressions\Expression_.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Expressions\Precedence.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Expressions\Scalar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Expressions\Expression.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Expressions\ExpressionType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Expressions\Matrix3x2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Expressions\Vector2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Expressions\Vector3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Expressions\Vector4.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Expressions\Void.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ICompositionSurface.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IContainShapes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IDescribable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InsetClip.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)KeyFrameAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)KeyFrameAnimation_.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)KeyFrameType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LayerVisual.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LinearEasingFunction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MetaData\PropertySetValueType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MetaData\UapVersionAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mgc\CanvasComposite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mgc\CanvasDevice.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mgce\CompositeEffect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mgce\GaussianBlurEffect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mgce\GraphicsEffectBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mgce\GraphicsEffectType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mgcg\CanvasFigureLoop.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mgcg\CanvasFilledRegionDetermination.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mgcg\CanvasGeometry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mgcg\CanvasGeometryCombine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mgcg\CanvasPathBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PathKeyFrameAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScalarKeyFrameAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ShapeVisual.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SpriteVisual.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StepEasingFunction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Vector2KeyFrameAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Vector3KeyFrameAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Vector4KeyFrameAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Visual.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wg\IGeometrySource2D.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wui\Color.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wui\Colors.cs" />
+  </ItemGroup>
+</Project>

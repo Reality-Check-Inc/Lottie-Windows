@@ -1,0 +1,108 @@
+﻿<Page x:Class="LottieSamples.Scenarios.PlaybackPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:animatedvisuals="using:AnimatedVisuals"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+      mc:Ignorable="d">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <!--#region IntroText-->
+            <RichTextBlock Style="{StaticResource IntroTextBlock}">
+                <Paragraph>
+                    This example demonstrates how to configure
+                    <Span FontFamily="Consolas">AnimatedVisualPlayer</Span>'s
+                    playback in response to user interaction.
+                    <Span FontWeight="SemiBold">Press</Span>
+                    the buttons below to
+                    play, pause, stop, and reverse the Lottie animation.
+                    <LineBreak />
+                </Paragraph>
+            </RichTextBlock>
+            <!--#endregion-->
+
+            <Border Style="{StaticResource LottiePlayer}">
+                <!--  AnimatedVisualPlayer  -->
+                <muxc:AnimatedVisualPlayer x:Name="Playback_Player"
+                                           AutoPlay="False"
+                                           AutomationProperties.Name="Lottie animation">
+                    <!--  Codegen LottieVisualSource  -->
+                    <animatedvisuals:LottieLogo1 />
+                </muxc:AnimatedVisualPlayer>
+            </Border>
+
+            <!--  Playback Buttons  -->
+            <Grid Width="400"
+                  VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.Resources>
+                    <Style x:Key="ButtonBaseStyle" TargetType="ButtonBase">
+                        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                        <Setter Property="Margin" Value="10"/>
+                    </Style>
+                    <Style TargetType="Button" BasedOn="{StaticResource ButtonBaseStyle}"/>
+                    <Style TargetType="ToggleButton" BasedOn="{StaticResource ButtonBaseStyle}"/>
+                </Grid.Resources>
+                <!--  Play  -->
+                <Button x:Name="PlayButton"
+                        Grid.Column="0"
+                        AutomationProperties.Name="Play animation"
+                        Click="PlayButton_Click">
+                    <SymbolIcon Symbol="Play" />
+                </Button>
+                <!--  Pause  -->
+                <ToggleButton x:Name="PauseButton"
+                              Grid.Column="1"
+                              AutomationProperties.Name="Pause animation"
+                              Checked="PauseButton_Checked"
+                              IsThreeState="False"
+                              Unchecked="PauseButton_Unchecked">
+                    <SymbolIcon Symbol="Pause" />
+                </ToggleButton>
+                <!--  Resume  -->
+                <Button x:Name="StopButton"
+                        Grid.Column="2"
+                        AutomationProperties.Name="Stop animation"
+                        Click="StopButton_Click">
+                    <SymbolIcon Symbol="Stop" />
+                </Button>
+                <!--  Reverse  -->
+                <Button x:Name="ReverseButton"
+                        Grid.Column="3"
+                        AutomationProperties.Name="Play animation in reverse"
+                        Click="ReverseButton_Click">
+                    <SymbolIcon Symbol="Previous" />
+                </Button>
+            </Grid>
+
+            <!--#region OutroText-->
+            <RichTextBlock Style="{StaticResource OutroTextBlock}">
+                <Paragraph>
+                    To learn more, check out the
+                    <Hyperlink NavigateUri="https://github.com/windows-toolkit/Lottie-Windows/blob/main/LottieSamples/Scenarios/PlaybackPage.xaml">
+                        XAML
+                    </Hyperlink>
+                    +
+                    <Hyperlink NavigateUri="https://github.com/windows-toolkit/Lottie-Windows/blob/main/LottieSamples/Scenarios/PlaybackPage.xaml.cs">
+                        code-behind
+                    </Hyperlink>
+                    ,
+                    and read
+                    <Hyperlink NavigateUri="https://docs.microsoft.com/windows/communitytoolkit/animations/lottie-scenarios/playback">
+                        this tutorial
+                    </Hyperlink>
+                    on configuring animation playback.
+                </Paragraph>
+            </RichTextBlock>
+            <!--#endregion-->
+        </StackPanel>
+    </Grid>
+</Page>
